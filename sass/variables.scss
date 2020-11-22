@@ -1,0 +1,39 @@
+:root {
+    --header-height: 4.8rem;
+    --font-semi: 600;
+
+    --first-color: #4070F4;
+    --second-color: #0E2431;
+    
+    --big-font-size: 3.2rem;
+    --h2-font-size: 1.8rem;
+    --normal-font-size: 1.5rem;
+
+    --body-font: 'Poppins', sans-serif;
+  }
+
+  @media screen and (min-width: 768px) {
+    :root {
+      --big-font-size: 5.5rem;
+      --h2-font-size: 3.2rem;
+      --normal-font-size: 1.6rem;
+    }
+  }
+
+  // Margins
+  :root {
+    --mb-1: 0.8rem;
+    --mb-2: 1.6rem;
+    --mb-3: 2.4rem;
+    --mb-4: 3.2rem;
+    --mb-5: 4rem;
+    --mb-6: 4.8rem;
+  }
+
+  // z-index
+  :root {
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
